@@ -1,12 +1,15 @@
 ## DESAFIO 2. Datos de Billboard
 
+## Paso 1. Explorar los datos
+# Cargá el dataset usando Pandas y comenzá a explorar los datos.
+#Guardá en este espacio todos los procesos y análisis exploratorios que hayas hecho, tanto los preliminares como los definitivos.
+#Por favor, indicá cuál(es) es(son) cada uno(s).
+
 import pandas as pd #Importar librería Pandas
 import numpy as np #Importar librería Numpy
 import matplotlib.pyplot as plt #Importar librería Pyplot de MatPlotLib
 import seaborn as sns #Importar librería Seaborn
-%matplotlib inline
-#Para que los gráficos queden bien
-dfmusic = pd.read_csv("billboard.csv", encoding = "latin1")
+%matplotlib inline #Para no tener que usar plt.show para ver los gráficos
 
 #renombra las columnas de las semanas:
 lista_semanas = [] #se hace esta lista donde se van a ir poniendo los nombres nuevos de cada columna
